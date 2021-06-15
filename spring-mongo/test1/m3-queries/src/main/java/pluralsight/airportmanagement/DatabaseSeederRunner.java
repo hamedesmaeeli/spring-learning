@@ -29,6 +29,7 @@ public class DatabaseSeederRunner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
+        System.out.println("In the run Seeder");
         empty();
         seed();
     }
